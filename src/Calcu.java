@@ -32,7 +32,14 @@ void main() {
             var salidaMulti = String.format("El resultado es : \n%s * %s = %d ", numMilti, numMulti2, resultadoMulti);
             IO.println(salidaMulti);
             break;
-            
+            case 4:
+            IO.println("Operacion de Division");
+            Double numDivision1 = Double.parseDouble(IO.readln("Ingresa un numero : "));
+            Double numDivision2 = Double.parseDouble(IO.readln("Ingresa un numero : "));
+            Double resultadoDivision = numDivision1 / numDivision2;
+            String salidaDivision = String.format("El resultado es:\n%.2f / %.2f = %.2f", numDivision1, numDivision2, resultadoDivision);
+            IO.println(salidaDivision);
+            break;
 
 
     }
