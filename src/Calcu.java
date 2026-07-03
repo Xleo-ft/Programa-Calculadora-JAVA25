@@ -24,7 +24,15 @@ void main() {
             var salidaResta = String.format("El resultado es : \n%s - %s = %d ", numresta1, numresta2, resultadoResta);
             IO.println(salidaResta);
             break;
-       
+        case 3:
+            IO.println("Operacion de Multiplicacion");
+            var numMilti = IO.readln("Ingresa un numero : ");
+            var numMulti2 = IO.readln("Ingresa un numero : ");
+            var resultadoMulti = Integer.parseInt(numMilti) * Integer.parseInt(numMulti2);
+            var salidaMulti = String.format("El resultado es : \n%s * %s = %d ", numMilti, numMulti2, resultadoMulti);
+            IO.println(salidaMulti);
+            break;
+            
 
 
     }
