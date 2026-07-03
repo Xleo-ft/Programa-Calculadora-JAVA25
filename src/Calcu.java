@@ -16,7 +16,15 @@ void main() {
             var salidaSuma = String.format("El resultado es : \n%s + %s = %d ", num1, num2, resultadoSuma);
             IO.println(salidaSuma);
             break;
-        
+        case 2:
+            IO.println("Operacion de Sustraccion");
+            var numresta1 = IO.readln("Ingresa un numero : ");
+            var numresta2 = IO.readln("Ingresa un numero : ");
+            var resultadoResta = Integer.parseInt(numresta1) - Integer.parseInt(numresta2);
+            var salidaResta = String.format("El resultado es : \n%s - %s = %d ", numresta1, numresta2, resultadoResta);
+            IO.println(salidaResta);
+            break;
+       
 
 
     }
