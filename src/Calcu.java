@@ -10,8 +10,8 @@ void main() {
     switch (numopcion) {
         case 1:
             IO.println("Operacion de Adicion ");
-            var num1 = IO.readln("Ingresa un numero : ");
-            var num2 = IO.readln("Ingresa un numero : ");
+            var num1 = IO.readln("Ingresa un número : ");
+            var num2 = IO.readln("Ingresa un número : ");
             var resultadoSuma = Integer.parseInt(num1) + Integer.parseInt(num2);
             var salidaSuma = String.format("El resultado es : \n%s + %s = %d ", num1, num2, resultadoSuma);
             IO.println(salidaSuma);
